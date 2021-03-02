@@ -23,4 +23,8 @@
 *.json files to configure typescript/angular and etc
 package.json - main file with included dependencies
 ## Project build via webpack under Angular CLI
-
+## Creating a new Component via CLI
+    ng generate component Component_name 
+    ng g c Component_name 
+! Components, created via CLI will be imported in app.module.ts automatically
+## ng build
