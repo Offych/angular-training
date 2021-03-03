@@ -39,3 +39,4 @@ package.json - main file with included dependencies
         Best practice - use styling of Components themselves
 ## ng-content usage
 ## String interpolation, change value example
+## Two-ways binding, private/public explanation 

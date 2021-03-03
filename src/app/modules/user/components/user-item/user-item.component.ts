@@ -8,12 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class UserItemComponent implements OnInit {
   
   public name = 'Sasha';
+  private addName = ' the best'; //can be used inside a class only
 
   constructor() { }
 
   ngOnInit(): void {
-    setTimeout(() => {
+    this.name += this.addName;
+   /*  setTimeout(() => {
       this.name = 'Pokemon'
-    }, 3000);
+    }, 3000); */
   }
 }
