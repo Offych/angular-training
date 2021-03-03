@@ -44,5 +44,3 @@ package.json - main file with included dependencies
     ng g s Service_name
 ## Using services as providers
 
-
-
