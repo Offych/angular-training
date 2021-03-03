@@ -28,3 +28,8 @@ package.json - main file with included dependencies
     ng g c Component_name 
 ! Components, created via CLI will be imported in app.module.ts automatically
 ## ng build
+## Creating a new module
+    ng g m Module_name
+## Componets usage from different module
+    Component name should be registered in the module in exports array:
+        exports: [Component_name]
