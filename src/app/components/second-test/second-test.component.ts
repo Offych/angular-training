@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-second-test',
+  selector: 'second-test',
   templateUrl: './second-test.component.html',
   styleUrls: ['./second-test.component.scss']
 })
