@@ -42,5 +42,7 @@ package.json - main file with included dependencies
 ## Two-ways binding, private/public explanation
 ## Service creation and usage
     ng g s Service_name
+## Using services as providers
+
 
 

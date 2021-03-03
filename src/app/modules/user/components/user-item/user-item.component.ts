@@ -4,7 +4,8 @@ import { HelperService } from 'src/app/modules/services/helper.service';
 @Component({
   selector: 'app-user-item',
   templateUrl: './user-item.component.html',
-  styleUrls: ['./user-item.component.scss']
+  styleUrls: ['./user-item.component.scss'],
+  providers: [HelperService]
 })
 export class UserItemComponent implements OnInit {
   
@@ -14,13 +15,6 @@ export class UserItemComponent implements OnInit {
   constructor(private helperService: HelperService) { }
 
   ngOnInit(): void {
-    const someFirstName = this.helperService.showFirstName();
-    debugger;
-    
-    //this.helperService.putSomethingToTheConsole(this.name)
-    //this.name += this.addName;
-   /*  setTimeout(() => {
-      this.name = 'Pokemon'
-    }, 3000); */
+    const a = this.helperService.showFirstName();
   }
 }
