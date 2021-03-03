@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HelperService } from 'src/app/modules/services/helper.service';
 
 @Component({
   selector: 'app-add-user',
@@ -8,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class AddUserComponent implements OnInit {
 
   
-  constructor() { }
+  constructor(private helperService: HelperService) { }
 
   ngOnInit(): void {
+    this.helperService.firstName = 'Pokemon';
   }
 
 }

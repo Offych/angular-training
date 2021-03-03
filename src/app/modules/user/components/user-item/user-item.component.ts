@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HelperService } from 'src/app/modules/services/helper.service';
 
 @Component({
   selector: 'app-user-item',
@@ -8,12 +9,16 @@ import { Component, OnInit } from '@angular/core';
 export class UserItemComponent implements OnInit {
   
   public name = 'Sasha';
-  private addName = ' the best'; //can be used inside a class only
+  //private addName = ' the best'; //can be used inside a class only */
 
-  constructor() { }
+  constructor(private helperService: HelperService) { }
 
   ngOnInit(): void {
-    this.name += this.addName;
+    const someFirstName = this.helperService.showFirstName();
+    debugger;
+    
+    //this.helperService.putSomethingToTheConsole(this.name)
+    //this.name += this.addName;
    /*  setTimeout(() => {
       this.name = 'Pokemon'
     }, 3000); */

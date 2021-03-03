@@ -39,4 +39,8 @@ package.json - main file with included dependencies
         Best practice - use styling of Components themselves
 ## ng-content usage
 ## String interpolation, change value example
-## Two-ways binding, private/public explanation 
+## Two-ways binding, private/public explanation
+## Service creation and usage
+    ng g s Service_name
+
+
