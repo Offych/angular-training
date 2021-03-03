@@ -38,3 +38,4 @@ package.json - main file with included dependencies
         encapsulation: ViewEncapsulation.None parameter after styling in app.component (rare usage)
         Best practice - use styling of Components themselves
 ## ng-content usage
+## String interpolation, change value example
