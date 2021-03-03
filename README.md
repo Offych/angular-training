@@ -37,4 +37,4 @@ package.json - main file with included dependencies
     ovveride components styling with usage style from the root component
         encapsulation: ViewEncapsulation.None parameter after styling in app.component (rare usage)
         Best practice - use styling of Components themselves
-    
+## ng-content usage
