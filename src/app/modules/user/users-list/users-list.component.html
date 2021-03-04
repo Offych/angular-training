@@ -1,4 +1,7 @@
 <p>users-lists-works!</p>
+<div *ngFor="let item of users">
+    <app-user-item [userData]="item"></app-user-item>
+</div>
 
-<app-user-item [userData]="users[0]" (buttonClick)="onChildComponentClicked($event)"></app-user-item>
-<app-user-item [userData]="users[1]" (buttonClick)="onChildComponentClicked($event)"></app-user-item>
+<!-- app-user-item [userData]="users[0]" (buttonClick)="onChildComponentClicked($event)"></app-user-item>
+<app-user-item [userData]="users[1]" (buttonClick)="onChildComponentClicked($event)"></app-user-item> -->

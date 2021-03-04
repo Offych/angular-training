@@ -44,5 +44,6 @@ package.json - main file with included dependencies
     ng g s Service_name
 ## Using services as providers
 ## @Input, @Output, subscribe for events with New EventEmitter();
+## *ngFor directive usage
 
 
