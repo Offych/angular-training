@@ -1,1 +1,4 @@
-<p>users-list works!</p>
+<p>users-lists-works!</p>
+
+<app-user-item [userData]="users[0]" (buttonClick)="onChildComponentClicked($event)"></app-user-item>
+<app-user-item [userData]="users[1]" (buttonClick)="onChildComponentClicked($event)"></app-user-item>

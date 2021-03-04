@@ -43,4 +43,6 @@ package.json - main file with included dependencies
 ## Service creation and usage
     ng g s Service_name
 ## Using services as providers
+## @Input, @Output, subscribe for events with New EventEmitter();
+
 

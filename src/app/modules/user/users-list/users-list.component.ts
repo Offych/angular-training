@@ -16,5 +16,9 @@ export class UsersListComponent implements OnInit {
   ngOnInit(): void {
     this.users = this.helperService.getUsers();
   }
+  
+  public onChildComponentClicked(middleName: string): void {
+    console.log('ChildComponentClicked!', middleName)
+  }
 
 }
