@@ -9,6 +9,12 @@
 <app-user-item [userData]="users[1]" (buttonClick)="onChildComponentClicked($event)"></app-user-item> -->
 
 <div [ngSwitch]="testVar">
-    <p *ngSwitchCase='1'>TEST</p>
+    <p *ngSwitchCase='1'>Used for if-else below</p>
     <p *ngSwitchCase='2'>TEST 2</p>
 </div>
+
+<div *ngIf="testVar; else loggedOut"></div>
+
+<ng-template #loggedOut>
+    You are using logged out in Angular if-else statement!
+</ng-template>
