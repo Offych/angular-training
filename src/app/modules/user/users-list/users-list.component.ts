@@ -11,6 +11,8 @@ import { IUser } from '../../user/user.interface';
 export class UsersListComponent implements OnInit {
   public users: IUser[] = [];
   
+  public testVar = 1;
+  
   constructor(private helperService: HelperService) { }
 
   ngOnInit(): void {

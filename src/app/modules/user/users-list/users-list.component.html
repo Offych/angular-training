@@ -1,7 +1,14 @@
 <p>users-lists-works!</p>
+<ng-container *ngIf="true">
 <div *ngFor="let item of users">
-    <app-user-item [userData]="item"></app-user-item>
+<!--     <app-user-item [userData]="item"></app-user-item> -->
+    <app-user-item  [userData]="item"></app-user-item>
 </div>
-
+</ng-container>
 <!-- app-user-item [userData]="users[0]" (buttonClick)="onChildComponentClicked($event)"></app-user-item>
 <app-user-item [userData]="users[1]" (buttonClick)="onChildComponentClicked($event)"></app-user-item> -->
+
+<div [ngSwitch]="testVar">
+    <p *ngSwitchCase='1'>TEST</p>
+    <p *ngSwitchCase='2'>TEST 2</p>
+</div>

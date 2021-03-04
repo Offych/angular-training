@@ -45,5 +45,6 @@ package.json - main file with included dependencies
 ## Using services as providers
 ## @Input, @Output, subscribe for events with New EventEmitter();
 ## *ngFor directive usage
-
+## ng-container, *ngIf usage, on element [hidden]=false = (display:none :-) )
+## *ngSwitch
 
